@@ -254,7 +254,7 @@ function [data limits] = minkowskiChart(varargin)
 endfunction
 
 function showHelp
-  name = 'createChart';
+  name = 'minkowskiChart';
   disp('SYNOPSIS:')
   disp('  Calculates zigzag worldlines with proper time ticks and displays them')
   disp('  on a Minkowski spacetime diagram from the point of view of a stationary')
@@ -283,7 +283,7 @@ function showHelp
   disp('  limits = [xmin xmax tmin tmax]');
   disp('NOTES:')
   disp('  1. Natural units (i.e. c=1)')
-  disp('  2. Worldlines are zigzags with waypoints at T=t(i)+0.5')
+  disp('  2. Worldlines are zigzags with waypoints at t+0.5')
   disp('  3. Options are specified as ''tag'' or ''tag=value''')
   disp('  4. Tags without values are evaluated as ''tag=true''')
   disp('  5. Quotes within options must be escaped (e.g. ''name="My Chart"'')')
