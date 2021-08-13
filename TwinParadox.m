@@ -1,0 +1,1 @@
+function [data limits] = TwinParadox(varargin)  opts = {};  opts = [opts 'name = ''Twin Paradox'''];  opts = [opts 'v = [0.6 0]'];  opts = [opts 'gal = false'];  opts = [opts 'help = false'];  opts = [opts varargin];  [data limits] = minkowskiChart(opts{:});endfunction
